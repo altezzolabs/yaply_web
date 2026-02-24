@@ -356,6 +356,19 @@ body {
 }
 
 /* ---- Companions ---- */
+.category-title {
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--charcoal);
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.category-title:first-of-type {
+    margin-top: 0;
+}
+
 .companions-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
