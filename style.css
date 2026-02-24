@@ -61,18 +61,10 @@ body {
     text-decoration: none;
 }
 
-.logo-icon {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
+.nav-logo-img {
     width: 36px;
     height: 36px;
-    background: var(--yellow);
     border-radius: 10px;
-    font-family: 'Comfortaa', cursive;
-    font-weight: 700;
-    font-size: 22px;
-    color: var(--charcoal);
 }
 
 .logo-text {
@@ -80,6 +72,12 @@ body {
     font-weight: 700;
     font-size: 22px;
     color: var(--charcoal);
+}
+
+.footer-logo-img {
+    width: 36px;
+    height: 36px;
+    border-radius: 10px;
 }
 
 .nav-links {
@@ -483,10 +481,7 @@ body {
     margin-bottom: 32px;
 }
 
-.footer-brand .logo-icon {
-    background: var(--yellow);
-    color: var(--charcoal);
-}
+
 
 .footer-brand .logo-text {
     color: var(--white);
