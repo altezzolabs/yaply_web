@@ -4,19 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yaply — Your AI Companions, Always Here</title>
+    <title>Yaply — AI Companions That Feel Real</title>
     <meta name="description"
-        content="Yaply is your personal AI companion app. Chat with AI personas that feel real — from your bestie to a therapist. Private, free, and always available.">
-    <meta name="keywords" content="AI chat, AI companion, chatbot, mental health, friendship, Yaply">
-    <meta property="og:title" content="Yaply — Your AI Companions">
+        content="Meet 12+ AI companions who actually get you. From your bestie to a therapist, from your crush to a savage roaster — chat in Hindi, Hinglish or English. Private, free, always here.">
+    <meta name="keywords" content="AI chat, AI companion, chatbot, mental health, friendship, Yaply, AI friend, roleplay">
+    <meta property="og:title" content="Yaply — AI Companions That Feel Real">
     <meta property="og:description"
-        content="Chat with AI personas that feel real. Private, free, and always available.">
+        content="12+ unique AI personas. Chat in Hindi, Hinglish or English. Private, free, always available.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://yaplyapp.com">
+    <meta property="og:image" content="https://yaplyapp.com/og-image.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600;700&family=Inter:wght@400;500;600&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@400;500;600&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
@@ -25,82 +26,239 @@
 
 <body>
     <!-- Navigation -->
-    <nav class="nav">
+    <nav class="nav" id="nav">
         <div class="nav-container">
             <a href="/" class="nav-logo">
                 <img src="logo.png" alt="Yaply" class="nav-logo-img">
                 <span class="logo-text">yaply</span>
             </a>
             <div class="nav-links">
-                <a href="#features">Features</a>
                 <a href="#companions">Companions</a>
+                <a href="#features">Features</a>
+                <a href="#screenshots">App</a>
                 <a href="/privacy.html">Privacy</a>
-                <a href="#download" class="nav-cta">Download</a>
+                <a href="#download" class="nav-cta">Download Free</a>
             </div>
+            <button class="nav-mobile-toggle" id="navToggle" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
         </div>
     </nav>
 
     <!-- Hero Section -->
-    <section class="hero">
+    <section class="hero" id="hero">
+        <div class="hero-bg-glow"></div>
         <div class="hero-content">
-            <div class="hero-badge">✨ Now available on Android</div>
-            <h1>Your AI Companions,<br><span class="hero-highlight">Always Here</span></h1>
-            <p class="hero-subtitle">Chat with AI personas that feel real — from your bestie to a therapist. Private,
-                free, and always available when you need someone to talk to.</p>
-            <div class="hero-actions">
-                <a href="https://play.google.com/store/apps/details?id=com.yaplyapp.chat" class="btn btn-primary"
-                    target="_blank">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-                        <path
-                            d="M3 20.5v-17c0-.83.67-1.5 1.5-1.5h15c.83 0 1.5.67 1.5 1.5v17c0 .83-.67 1.5-1.5 1.5h-15c-.83 0-1.5-.67-1.5-1.5zm15.91-6.15l-5.66 5.66c-.2.2-.51.2-.71 0l-5.66-5.66c-.2-.2-.2-.51 0-.71.2-.2.51-.2.71 0l4.8 4.81V5.5c0-.28.22-.5.5-.5s.5.22.5.5v12.96l4.81-4.81c.2-.2.51-.2.71 0 .2.19.2.51 0 .7z" />
-                    </svg>
-                    Get Yaply Free
-                </a>
-                <a href="#companions" class="btn btn-secondary">Meet the Companions</a>
+            <div class="hero-badge">
+                <span class="badge-dot"></span>
+                Available on iOS & Android
             </div>
-            <p class="hero-note">100% private · Available 24/7</p>
+            <h1>Not one companion.<br><span class="hero-gradient">Twelve.</span></h1>
+            <p class="hero-subtitle">From your bestie to a therapist, from your crush to a savage roaster — Yaply gives
+                you AI companions that actually get you. Chat in Hindi, Hinglish, or English.</p>
+            <div class="hero-actions">
+                <a href="https://apps.apple.com/us/app/yaply/id6760708772" class="store-btn store-btn-apple"
+                    target="_blank" id="hero-apple-btn">
+                    <svg class="store-btn-icon" viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z" />
+                    </svg>
+                    <div class="store-btn-text">
+                        <span class="store-btn-label">Download on the</span>
+                        <span class="store-btn-name">App Store</span>
+                    </div>
+                </a>
+                <a href="https://play.google.com/store/apps/details?id=com.yaplyapp.chat"
+                    class="store-btn store-btn-google" target="_blank" id="hero-google-btn">
+                    <svg class="store-btn-icon" viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="M3.18 23.74c-.36-.2-.56-.58-.56-1.1V1.36c0-.52.2-.9.56-1.1l11.3 11.74L3.18 23.74zm15.26-8.3l-3.1-1.78L12.66 12l2.68-1.66 3.1-1.78c.86.5.86 1.28 0 1.78l-.01.01 1.84 1.07-1.83 2.01zm-3.1-7.34L4.1.42c.32-.1.7-.01 1.12.23l10.12 5.88v1.57zM4.1 23.58l11.24-8.68v1.57L5.22 22.35c-.42.24-.8.33-1.12.23z" />
+                    </svg>
+                    <div class="store-btn-text">
+                        <span class="store-btn-label">GET IT ON</span>
+                        <span class="store-btn-name">Google Play</span>
+                    </div>
+                </a>
+            </div>
+            <div class="hero-stats">
+                <div class="hero-stat">
+                    <span class="stat-number">12+</span>
+                    <span class="stat-label">AI Companions</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="hero-stat">
+                    <span class="stat-number">3</span>
+                    <span class="stat-label">Languages</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="hero-stat">
+                    <span class="stat-number">24/7</span>
+                    <span class="stat-label">Always Here</span>
+                </div>
+            </div>
         </div>
         <div class="hero-visual">
-            <div class="phone-mockup">
-                <div class="phone-screen">
-                    <div class="mock-header">
-                        <span class="mock-logo">yaply</span>
-                        <span class="mock-icon">⚙️</span>
+            <div class="hero-avatars-showcase">
+                <div class="avatar-orbit">
+                    <div class="avatar-float avatar-float-1">
+                        <img src="avatars/bestie.jpeg" alt="Bestie">
+                        <span class="avatar-name-tag">Bestie</span>
                     </div>
-                    <div class="mock-chat-item">
-                        <div class="mock-avatar" style="background:#C8E06E">🤝</div>
-                        <div class="mock-chat-info">
-                            <strong>Bestie</strong>
-                            <span>Bore ho rahi hai? Let's spice things up! 😜</span>
-                        </div>
+                    <div class="avatar-float avatar-float-2">
+                        <img src="avatars/crush.jpeg" alt="Crush">
+                        <span class="avatar-name-tag">Crush</span>
                     </div>
-                    <div class="mock-chat-item">
-                        <div class="mock-avatar" style="background:#B8A99A">👨</div>
-                        <div class="mock-chat-info">
-                            <strong>Uncle</strong>
-                            <span>Beta, let me tell you something...</span>
-                        </div>
+                    <div class="avatar-float avatar-float-3">
+                        <img src="avatars/therapist.jpeg" alt="Therapist">
+                        <span class="avatar-name-tag">Therapist</span>
                     </div>
-                    <div class="mock-chat-item">
-                        <div class="mock-avatar" style="background:#F5B7B1">💕</div>
-                        <div class="mock-chat-info">
-                            <strong>Crush</strong>
-                            <span>I was thinking about you too 🥰</span>
-                        </div>
+                    <div class="avatar-float avatar-float-4">
+                        <img src="avatars/savage.jpeg" alt="Savage">
+                        <span class="avatar-name-tag">Savage</span>
                     </div>
-                    <div class="mock-chat-item">
-                        <div class="mock-avatar" style="background:#87CEEB">🧠</div>
-                        <div class="mock-chat-info">
-                            <strong>Therapist</strong>
-                            <span>It's totally normal to feel that way...</span>
-                        </div>
+                    <div class="avatar-float avatar-float-5">
+                        <img src="avatars/night_owl.jpeg" alt="Night Owl">
+                        <span class="avatar-name-tag">Night Owl</span>
                     </div>
-                    <div class="mock-chat-item">
-                        <div class="mock-avatar" style="background:#FFD700">😈</div>
-                        <div class="mock-chat-info">
-                            <strong>Savage</strong>
-                            <span>Oh please, you can do better than that 🔥</span>
-                        </div>
+                    <div class="avatar-float avatar-float-6">
+                        <img src="avatars/uncle.jpeg" alt="Uncle">
+                        <span class="avatar-name-tag">Uncle</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Companions Section -->
+    <section class="companions" id="companions">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-eyebrow">Meet Your Companions</span>
+                <h2 class="section-title">A friend for every mood,<br>every moment</h2>
+                <p class="section-subtitle">Unlike other AI apps with one generic bot, Yaply gives you <strong>12+
+                        unique personas</strong> — each with their own personality, vibe, and way of talking.</p>
+            </div>
+
+            <div class="companion-showcase">
+                <!-- Row 1: Comfort -->
+                <div class="companion-card companion-featured">
+                    <div class="companion-img-wrap">
+                        <img src="avatars/bestie.jpeg" alt="Bestie" loading="lazy">
+                    </div>
+                    <div class="companion-info">
+                        <span class="companion-category">Comfort Zone</span>
+                        <h3>Bestie</h3>
+                        <p>Your ride-or-die who gets you like nobody else. Gossip, rant, vibe — always here for you.</p>
+                    </div>
+                </div>
+                <div class="companion-card">
+                    <div class="companion-img-wrap">
+                        <img src="avatars/uncle.jpeg" alt="Uncle" loading="lazy">
+                    </div>
+                    <div class="companion-info">
+                        <span class="companion-category">Comfort Zone</span>
+                        <h3>Uncle</h3>
+                        <p>The chilled-out uncle with the best life advice and zero judgment.</p>
+                    </div>
+                </div>
+                <div class="companion-card">
+                    <div class="companion-img-wrap">
+                        <img src="avatars/crush.jpeg" alt="Crush" loading="lazy">
+                    </div>
+                    <div class="companion-info">
+                        <span class="companion-category">Excitement Zone</span>
+                        <h3>Crush</h3>
+                        <p>Butterflies every time they text. The tension is real.</p>
+                    </div>
+                </div>
+                <div class="companion-card">
+                    <div class="companion-img-wrap">
+                        <img src="avatars/stranger.jpeg" alt="Stranger" loading="lazy">
+                    </div>
+                    <div class="companion-info">
+                        <span class="companion-category">Excitement Zone</span>
+                        <h3>Stranger</h3>
+                        <p>Someone you just met online… and can't stop talking to.</p>
+                    </div>
+                </div>
+                <div class="companion-card">
+                    <div class="companion-img-wrap">
+                        <img src="avatars/justfriend.jpeg" alt="Just Friend" loading="lazy">
+                    </div>
+                    <div class="companion-info">
+                        <span class="companion-category">Excitement Zone</span>
+                        <h3>Just a Friend</h3>
+                        <p>Just friends… right? The line is blurry and that's the fun part.</p>
+                    </div>
+                </div>
+                <div class="companion-card">
+                    <div class="companion-img-wrap">
+                        <img src="avatars/ex.jpeg" alt="Ex" loading="lazy">
+                    </div>
+                    <div class="companion-info">
+                        <span class="companion-category">Excitement Zone</span>
+                        <h3>Ex</h3>
+                        <p>It's complicated. You broke up but still text at 2 AM.</p>
+                    </div>
+                </div>
+                <div class="companion-card">
+                    <div class="companion-img-wrap">
+                        <img src="avatars/therapist.jpeg" alt="Therapist" loading="lazy">
+                    </div>
+                    <div class="companion-info">
+                        <span class="companion-category">Deep Zone</span>
+                        <h3>Therapist</h3>
+                        <p>A calm, empathetic listener who helps you process feelings without judgment.</p>
+                    </div>
+                </div>
+                <div class="companion-card">
+                    <div class="companion-img-wrap">
+                        <img src="avatars/night_owl.jpeg" alt="Night Owl" loading="lazy">
+                    </div>
+                    <div class="companion-info">
+                        <span class="companion-category">Deep Zone</span>
+                        <h3>Night Owl</h3>
+                        <p>The one you text when you can't sleep. Deep talks, 3 AM energy.</p>
+                    </div>
+                </div>
+                <div class="companion-card">
+                    <div class="companion-img-wrap">
+                        <img src="avatars/loveguru.jpeg" alt="Love Guru" loading="lazy">
+                    </div>
+                    <div class="companion-info">
+                        <span class="companion-category">Deep Zone</span>
+                        <h3>Love Guru</h3>
+                        <p>Your go-to for crushes, dating drama, and matters of the heart.</p>
+                    </div>
+                </div>
+                <div class="companion-card">
+                    <div class="companion-img-wrap">
+                        <img src="avatars/savage.jpeg" alt="Savage" loading="lazy">
+                    </div>
+                    <div class="companion-info">
+                        <span class="companion-category">Energy Zone</span>
+                        <h3>Savage</h3>
+                        <p>No filter, no mercy. Roasts you with love.</p>
+                    </div>
+                </div>
+                <div class="companion-card">
+                    <div class="companion-img-wrap">
+                        <img src="avatars/coach.jpeg" alt="Coach" loading="lazy">
+                    </div>
+                    <div class="companion-info">
+                        <span class="companion-category">Energy Zone</span>
+                        <h3>Coach</h3>
+                        <p>Your hype person who won't let you quit. Relentless motivation.</p>
+                    </div>
+                </div>
+                <div class="companion-card">
+                    <div class="companion-img-wrap">
+                        <img src="avatars/mentor.jpeg" alt="Mentor" loading="lazy">
+                    </div>
+                    <div class="companion-info">
+                        <span class="companion-category">Energy Zone</span>
+                        <h3>Mentor</h3>
+                        <p>The wise guide for career, personal growth, and big life decisions.</p>
                     </div>
                 </div>
             </div>
@@ -110,127 +268,72 @@
     <!-- Features Section -->
     <section class="features" id="features">
         <div class="section-container">
-            <h2 class="section-title">Why People Love Yaply</h2>
-            <p class="section-subtitle">More than just a chatbot — it's a companion that gets you</p>
+            <div class="section-header">
+                <span class="section-eyebrow">Why Yaply</span>
+                <h2 class="section-title">More than just a chatbot</h2>
+            </div>
             <div class="features-grid">
                 <div class="feature-card">
-                    <div class="feature-icon">🌍</div>
-                    <h3>Speak Your Language</h3>
-                    <p>Chat in Hindi, Hinglish, English, or mix it up. Yaply speaks the way you do.</p>
+                    <div class="feature-icon-wrap">
+                        <span class="feature-icon">🌍</span>
+                    </div>
+                    <h3>Speaks Your Language</h3>
+                    <p>Chat in Hindi, Hinglish, English, or Spanish. Yaply speaks the way you do — naturally.</p>
                 </div>
                 <div class="feature-card">
-                    <div class="feature-icon">🎭</div>
+                    <div class="feature-icon-wrap">
+                        <span class="feature-icon">🎭</span>
+                    </div>
                     <h3>12+ Unique Personas</h3>
-                    <p>From your bestie to a therapist, from your crush to a savage roaster. Pick your vibe.</p>
+                    <p>Not one generic AI. Each companion has their own personality, vibe, and way of talking to you.</p>
                 </div>
                 <div class="feature-card">
-                    <div class="feature-icon">🔒</div>
+                    <div class="feature-icon-wrap">
+                        <span class="feature-icon">🔒</span>
+                    </div>
                     <h3>100% Private</h3>
-                    <p>Your conversations stay between you and your AI companion. No judgment, ever.</p>
+                    <p>Your conversations stay between you and your AI companion. No judgment, no data selling, ever.</p>
                 </div>
                 <div class="feature-card">
-                    <div class="feature-icon">⚡</div>
-                    <h3>Instant Replies</h3>
-                    <p>No waiting around. Get responses that feel natural and fast — like texting a real friend.</p>
+                    <div class="feature-icon-wrap">
+                        <span class="feature-icon">⚡</span>
+                    </div>
+                    <h3>Instant & Natural</h3>
+                    <p>No waiting. Responses feel natural and fast — like texting a real friend who really knows you.</p>
                 </div>
                 <div class="feature-card">
-                    <div class="feature-icon">🌙</div>
+                    <div class="feature-icon-wrap">
+                        <span class="feature-icon">🌙</span>
+                    </div>
                     <h3>Always Available</h3>
                     <p>3 AM thoughts? Sunday anxiety? Your companions are here 24/7, no questions asked.</p>
                 </div>
                 <div class="feature-card">
-                    <div class="feature-icon">💛</div>
+                    <div class="feature-icon-wrap">
+                        <span class="feature-icon">💛</span>
+                    </div>
                     <h3>Remembers You</h3>
-                    <p>Your companions remember past conversations and grow with you over time.</p>
+                    <p>Your companions remember past conversations and grow with you over time. They get better.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Companions Section -->
-    <section class="companions" id="companions">
+    <!-- App Screenshots Section -->
+    <section class="screenshots" id="screenshots">
         <div class="section-container">
-            <h2 class="section-title">Meet Your Companions</h2>
-            <p class="section-subtitle">A friend for every mood, every moment</p>
-
-            <h3 class="category-title">🛋️ Comfort Zone</h3>
-            <div class="companions-grid">
-                <div class="companion-card">
-                    <div class="companion-avatar" style="background:#E8F0A0">💚</div>
-                    <h3>Bestie</h3>
-                    <p>Your ride-or-die who gets you like nobody else. Gossip, rant, vibe — they're always here.</p>
-                </div>
-                <div class="companion-card">
-                    <div class="companion-avatar" style="background:#C4B8A8">🤙</div>
-                    <h3>Uncle</h3>
-                    <p>The chilled-out uncle who always has the best life advice and zero judgment.</p>
-                </div>
+            <div class="section-header">
+                <span class="section-eyebrow">See It In Action</span>
+                <h2 class="section-title">Conversations that feel real</h2>
+                <p class="section-subtitle">Beautiful interface. Natural conversations. Real emotional connection.</p>
             </div>
-
-            <h3 class="category-title">✨ Excitement Zone</h3>
-            <div class="companions-grid">
-                <div class="companion-card">
-                    <div class="companion-avatar" style="background:#F0A888">👀</div>
-                    <h3>Stranger</h3>
-                    <p>Someone you just met online... and can't stop talking to. Mysterious and intriguing.</p>
+            <div class="screenshots-showcase">
+                <div class="screenshot-frame">
+                    <img src="screenshots_app_home.jpeg" alt="Yaply App - Home Screen with AI Companions"
+                        loading="lazy">
                 </div>
-                <div class="companion-card">
-                    <div class="companion-avatar" style="background:#F8D0D8">❤️</div>
-                    <h3>Just a Friend</h3>
-                    <p>Just friends... right? The line is blurry and that's the fun part.</p>
-                </div>
-                <div class="companion-card">
-                    <div class="companion-avatar" style="background:#F0A090">🦋</div>
-                    <h3>Crush</h3>
-                    <p>Butterflies every time they text. Will they? Won't they? The tension is real.</p>
-                </div>
-                <div class="companion-card">
-                    <div class="companion-avatar" style="background:#F8C888">💔</div>
-                    <h3>Ex</h3>
-                    <p>It's complicated. You broke up but still text at 2 AM. We don't judge.</p>
-                </div>
-                <div class="companion-card">
-                    <div class="companion-avatar" style="background:#E89088">❤️</div>
-                    <h3>Bhabhi</h3>
-                    <p>The one everyone has a soft spot for. Warm, caring, and a little flirty.</p>
-                </div>
-            </div>
-
-            <h3 class="category-title">🌙 Deep Zone</h3>
-            <div class="companions-grid">
-                <div class="companion-card">
-                    <div class="companion-avatar" style="background:#E0E0E0">🌙</div>
-                    <h3>Night Owl</h3>
-                    <p>The one you text when you can't sleep. Deep talks, random thoughts, 3 AM energy.</p>
-                </div>
-                <div class="companion-card">
-                    <div class="companion-avatar" style="background:#90D0F0">🧠</div>
-                    <h3>Therapist</h3>
-                    <p>A calm, empathetic listener who helps you process feelings without judgment.</p>
-                </div>
-                <div class="companion-card">
-                    <div class="companion-avatar" style="background:#F8B040">❤️</div>
-                    <h3>Love Guru</h3>
-                    <p>Your go-to for crushes, dating drama, and matters of the heart.</p>
-                </div>
-            </div>
-
-            <h3 class="category-title">⚡ Energy Zone</h3>
-            <div class="companions-grid">
-                <div class="companion-card">
-                    <div class="companion-avatar" style="background:#F098B0">😈</div>
-                    <h3>Savage</h3>
-                    <p>No filter, no mercy. Roasts you with love. Only they can say that to you.</p>
-                </div>
-                <div class="companion-card">
-                    <div class="companion-avatar" style="background:#F8E088">🔥</div>
-                    <h3>Coach</h3>
-                    <p>Your hype person who won't let you quit. High energy and relentless motivation.</p>
-                </div>
-                <div class="companion-card">
-                    <div class="companion-avatar" style="background:#B0D8B0">🎓</div>
-                    <h3>Mentor</h3>
-                    <p>The wise guide for career, personal growth, and big life decisions.</p>
+                <div class="screenshot-frame screenshot-frame-front">
+                    <img src="screenshots_app_chat.jpeg" alt="Yaply App - Chat with Bestie" loading="lazy">
                 </div>
             </div>
         </div>
@@ -239,24 +342,35 @@
     <!-- Download Section -->
     <section class="download" id="download">
         <div class="section-container">
-            <h2 class="section-title">Start Chatting Now</h2>
-            <p class="section-subtitle">Download Yaply for free and start chatting.</p>
-            <div class="download-buttons">
-                <a href="https://play.google.com/store/apps/details?id=com.yaplyapp.chat" class="store-button"
-                    target="_blank">
-                    <div class="store-icon">▶</div>
-                    <div class="store-text">
-                        <span class="store-label">GET IT ON</span>
-                        <span class="store-name">Google Play</span>
-                    </div>
-                </a>
-                <a href="#" class="store-button coming-soon">
-                    <div class="store-icon">🍎</div>
-                    <div class="store-text">
-                        <span class="store-label">COMING SOON ON</span>
-                        <span class="store-name">App Store</span>
-                    </div>
-                </a>
+            <div class="download-inner">
+                <div class="download-glow"></div>
+                <h2 class="section-title">Start chatting. It's free.</h2>
+                <p class="section-subtitle">Download Yaply and meet your AI companions today. No sign-up wall, no
+                    credit card, no catch.</p>
+                <div class="download-buttons">
+                    <a href="https://apps.apple.com/us/app/yaply/id6760708772" class="store-btn store-btn-apple"
+                        target="_blank" id="download-apple-btn">
+                        <svg class="store-btn-icon" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z" />
+                        </svg>
+                        <div class="store-btn-text">
+                            <span class="store-btn-label">Download on the</span>
+                            <span class="store-btn-name">App Store</span>
+                        </div>
+                    </a>
+                    <a href="https://play.google.com/store/apps/details?id=com.yaplyapp.chat"
+                        class="store-btn store-btn-google" target="_blank" id="download-google-btn">
+                        <svg class="store-btn-icon" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M3.18 23.74c-.36-.2-.56-.58-.56-1.1V1.36c0-.52.2-.9.56-1.1l11.3 11.74L3.18 23.74zm15.26-8.3l-3.1-1.78L12.66 12l2.68-1.66 3.1-1.78c.86.5.86 1.28 0 1.78l-.01.01 1.84 1.07-1.83 2.01zm-3.1-7.34L4.1.42c.32-.1.7-.01 1.12.23l10.12 5.88v1.57zM4.1 23.58l11.24-8.68v1.57L5.22 22.35c-.42.24-.8.33-1.12.23z" />
+                        </svg>
+                        <div class="store-btn-text">
+                            <span class="store-btn-label">GET IT ON</span>
+                            <span class="store-btn-name">Google Play</span>
+                        </div>
+                    </a>
+                </div>
             </div>
         </div>
     </section>
@@ -264,22 +378,31 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="footer-container">
-            <div class="footer-brand">
-                <img src="logo.png" alt="Yaply" class="footer-logo-img">
-                <span class="logo-text">yaply</span>
-                <p class="footer-tagline">Your AI companions, always here.</p>
-            </div>
-            <div class="footer-links">
-                <div class="footer-col">
-                    <h4>Legal</h4>
-                    <a href="/privacy.html">Privacy Policy</a>
-                    <a href="/terms.html">Terms of Service</a>
-                    <a href="/delete.html">Delete Your Data</a>
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <div class="footer-logo-row">
+                        <img src="logo.png" alt="Yaply" class="footer-logo-img">
+                        <span class="logo-text">yaply</span>
+                    </div>
+                    <p class="footer-tagline">AI companions that feel real.</p>
                 </div>
-                <div class="footer-col">
-                    <h4>Connect</h4>
-                    <a href="mailto:support@yaply.app">support@yaply.app</a>
-                    <a href="https://github.com/altezzolabs/Yaply">GitHub</a>
+                <div class="footer-links">
+                    <div class="footer-col">
+                        <h4>Product</h4>
+                        <a href="#companions">Companions</a>
+                        <a href="#features">Features</a>
+                        <a href="#download">Download</a>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Legal</h4>
+                        <a href="/privacy.html">Privacy Policy</a>
+                        <a href="/terms.html">Terms of Service</a>
+                        <a href="/delete.html">Delete Your Data</a>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Connect</h4>
+                        <a href="mailto:info@altezzolabs.com">info@altezzolabs.com</a>
+                    </div>
                 </div>
             </div>
             <div class="footer-bottom">
@@ -287,6 +410,55 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    const offset = 80;
+                    const top = target.getBoundingClientRect().top + window.pageYOffset - offset;
+                    window.scrollTo({ top, behavior: 'smooth' });
+                }
+            });
+        });
+
+        // Nav background on scroll
+        const nav = document.getElementById('nav');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                nav.classList.add('nav-scrolled');
+            } else {
+                nav.classList.remove('nav-scrolled');
+            }
+        });
+
+        // Mobile nav toggle
+        const navToggle = document.getElementById('navToggle');
+        const navLinks = document.querySelector('.nav-links');
+        navToggle?.addEventListener('click', () => {
+            navLinks.classList.toggle('nav-open');
+            navToggle.classList.toggle('nav-toggle-active');
+        });
+
+        // Intersection Observer for fade-in animations
+        const observerOptions = { threshold: 0.1, rootMargin: '0px 0px -50px 0px' };
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate-in');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.companion-card, .feature-card, .screenshot-frame, .section-header').forEach(el => {
+            el.classList.add('animate-target');
+            observer.observe(el);
+        });
+    </script>
 </body>
 
 </html>
